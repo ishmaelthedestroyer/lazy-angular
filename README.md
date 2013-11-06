@@ -50,6 +50,17 @@ define [
 
 </pre>
 
+Now, when you want to lazy load a controller, service, or directive, get a reference to the module and declare it normally.
+
+`some-controller.js`
+<pre>
+define [
+    'app'
+], (app) ->
+    app.controller 'Some-ControllerCTRL', ($scope) ->
+        # your logic here ...
+</pre>
+
 ##Notes
 Developed by <a href='http://twitter.com/ishmaelsalive'>Ishmael tD</a>. <br />
 
