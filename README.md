@@ -25,10 +25,12 @@ define [
 </pre>
 
 `setupLazy.js`
+<pre>
 define [
     'app'
 ], (app) ->
     # ... setupLazy configures app here
+</pre>
 
 `app-routes.js`
 <pre>
